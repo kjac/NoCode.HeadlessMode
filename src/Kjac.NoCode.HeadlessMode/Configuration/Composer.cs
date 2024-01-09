@@ -18,6 +18,7 @@ public sealed class Composer : IComposer
         builder.Sections().Remove<TranslationSection>();
         builder.AddNotificationHandler<UmbracoApplicationStartingNotification, StartingNotificationHandler>();
         builder.AddNotificationHandler<SendingContentNotification, SendingContentNotificationHandler>();
+        builder.AddNotificationHandler<MenuRenderingNotification, MenuRenderingNotificationHandler>();
         builder.Services.ConfigureOptions<ConfigureContentSettings>();
     }
 }

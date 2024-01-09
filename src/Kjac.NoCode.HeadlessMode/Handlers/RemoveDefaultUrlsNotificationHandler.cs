@@ -3,7 +3,7 @@ using Umbraco.Cms.Core.Notifications;
 
 namespace Kjac.NoCode.HeadlessMode.Handlers;
 
-public class SendingContentNotificationHandler : INotificationHandler<SendingContentNotification>
+internal sealed class SendingContentNotificationHandler : INotificationHandler<SendingContentNotification>
 {
     public void Handle(SendingContentNotification notification)
     {
