@@ -1,0 +1,20 @@
+{
+  "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+  "AuthorDetails": {
+    "Name": "Kenn Jacobsen"
+  },
+  "Category": "Headless",
+  "Description": "No-code headless mode for Umbraco. Tailors the editor experience to a headless setup, e.g. by removing noise and irrelevant editor options.",
+  "DocumentationUrl": "https://github.com/kjac/NoCode.HeadlessMode",
+  "LicenseTypes": [ "Free" ],
+  "IssueTrackerUrl": "https://github.com/kjac/NoCode.HeadlessMode/issues",
+  "PackageType": "Package",
+  "Tags": [ "Headless", "Delivery API", "Preview" ],
+  "Title": "No-Code Headless Mode",
+  "RelatedPackages": [
+    {
+      "Description": "No-code tools for the Umbraco Delivery API. Allows for no-code definition of Delivery API filters and sorters, automatic CORS policies for API consumers and more.",
+      "PackageId": "Kjac.NoCode.DeliveryApi"
+    }
+  ]
+}
