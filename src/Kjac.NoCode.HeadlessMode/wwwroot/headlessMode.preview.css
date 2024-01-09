@@ -1,0 +1,37 @@
+﻿div[sub-buttons="previewSubButtons"] umb-button[alias="preview"] button
+{
+  padding: 0;
+}
+
+div[sub-buttons="previewSubButtons"] umb-button[alias="preview"] button .umb-button__content
+{
+  padding: 6px 14px;
+}
+
+div[sub-buttons="previewSubButtons"].-hide-preview-sub-buttons ul.umb-button-group__sub-buttons
+{
+  display: none;
+}
+
+div[data-element="node-info-redirects"] ul
+{
+  list-style: disc;
+  margin-left: 25px;
+}
+
+div[data-element="node-info-redirects"] ul li
+{
+  pointer-events: none;
+  cursor: default;
+}
+
+div[data-element="node-info-redirects"] ul li .icon
+{
+  display: none;
+}
+
+div[data-element="tab-content-contentRedirectManager"] a
+{
+  pointer-events: none;
+  cursor: default;
+}

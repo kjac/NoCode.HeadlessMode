@@ -1,0 +1,11 @@
+{
+    "id": "Kjac.NoCode.HeadlessMode",
+    "name": "Kjac.NoCode.HeadlessMode",
+    "allowPackageTelemetry": true,
+    "javascript": [
+        "~/App_Plugins/NoCodeHeadlessMode/headlessMode.preview.js",
+    ],
+    "css": [
+        "~/App_Plugins/NoCodeHeadlessMode/headlessMode.preview.css",
+    ]
+}

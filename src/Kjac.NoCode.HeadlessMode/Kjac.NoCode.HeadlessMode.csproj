@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StaticWebAssetBasePath>App_Plugins/NoCodeHeadlessMode</StaticWebAssetBasePath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Kjac.NoCode.HeadlessMode</PackageId>
+    <Product>Kjac.NoCode.HeadlessMode</Product>
+    <Title>Kjac.NoCode.HeadlessMode</Title>
+    <Description>...</Description>
+    <PackageTags>umbraco plugin package</PackageTags>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Umbraco.Cms.Web.Website" Version="13.0.0" />
+    <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="13.0.0" />
+  </ItemGroup>
+</Project>
