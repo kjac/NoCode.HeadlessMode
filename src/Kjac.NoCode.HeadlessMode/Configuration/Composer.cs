@@ -15,6 +15,7 @@ public sealed class Composer : IComposer
     {
         builder.RemoveTemplatingTreeGroupControllers();
         builder.Dashboards().Remove<ProfilerDashboard>();
+        builder.Dashboards().Remove<ModelsBuilderDashboard>();
         builder.Sections().Remove<TranslationSection>();
         builder.AddNotificationHandler<UmbracoApplicationStartingNotification, StartingNotificationHandler>();
         builder.AddNotificationHandler<SendingContentNotification, SendingContentNotificationHandler>();
