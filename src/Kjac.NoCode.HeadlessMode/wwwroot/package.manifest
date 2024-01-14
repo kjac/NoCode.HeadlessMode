@@ -1,6 +1,6 @@
 {
     "id": "Kjac.NoCode.HeadlessMode",
-    "name": "Kjac.NoCode.HeadlessMode",
+    "name": "No-Code Headless Mode",
     "allowPackageTelemetry": true,
     "javascript": [
         "~/App_Plugins/NoCodeHeadlessMode/headlessMode.preview.js",

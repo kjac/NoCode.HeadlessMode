@@ -1,5 +1,5 @@
 ﻿angular.module('umbraco').config(['$provide', $provide => {
-  $provide.decorator("$rootScope",
+  $provide.decorator('$rootScope',
     function headlessModePreview($delegate) {
 
       $delegate.$on('content.loaded', (evt, data) => {
@@ -25,7 +25,7 @@
           if (defaultButton && !toggle) {
             // no additional preview URLs defined, hide the entire group
             // - ideally this should be set in CSS, but it seems we can't apply complex selectors to :not()
-            group.style.display = "none";
+            group.style.display = 'none';
             return;
           }
 
@@ -34,7 +34,7 @@
               evt.stopImmediatePropagation();
               evt.preventDefault();
 
-              group.classList.add("-hide-preview-sub-buttons");
+              group.classList.add('-hide-preview-sub-buttons');
               toggle.click();
 
               const lookForPreviewSubButtons = setInterval(function () {
@@ -46,7 +46,7 @@
                 clearInterval(lookForPreviewSubButtons);
 
                 subButtons[0].click();
-                group.classList.remove("-hide-preview-sub-buttons");
+                group.classList.remove('-hide-preview-sub-buttons');
               }, 20);
             };
           }
